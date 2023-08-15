@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body {
+    background-image: url(./assets/arranjo-de-sushi-plano-leigos-com-espaco-de-copia.jpg);
+    background-size: cover;
+    background-position-x: center center;
+    background-repeat: no-repeat;
+  
+}
+
+.container {
+    max-width: 1080px;
+    display: flex;
+    /*organizar os elementos de forma responsiva*/
+    align-items: center;
+    /*para alinhar os itens*/
+    justify-content: center;
+    /*alinha todos os flex items ao centro dentro do flex container.*/
+    margin: 0 auto;
+    /*para ficar ao centro da página*/
+}
+
+
+
+
+header {
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+    /* A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
+
+}
+
+
+
+
+.logo,
+.sociais,
+.zap {
+    width: 25%;
+
+
+}
+
+.logo img {
+    width: 232px;
+}
+
+
+
+a:active {
+    opacity: 0.8;
+
+
+}
+
+.menu {
+    width: 50%;
+
+}
+
+.menu nav a {
+    color: #fff;
+    padding-right: 50px;
+    /*para distanciar os ícones do menu*/
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.menu nav a::after {
+    /*- serve para colocar animação sublinhada abaixo das opções do menu*/
+    content: " ";
+    /* "  " significa vazio */
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+    /*animação na base dos menus quando passar o mouse*/
+
+}
+
+.menu nav a:hover::after {
+    /*animação do tamanho na base dos menus quando passar o mouse*/
+    width: 40px;
+
+}
+
+
+button:active {
+    opacity: 0.8;
+
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    /*função para colocar a cor em degradê*/
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.imagem {
+    position: relative;
+
+}
+
+.img1 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 2s ease-in-out;
+    position: absolute;
+}
+
+.container-2 {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 1080px;
+    margin-top: 270px;
+    width: 40%;
+}
+
+.historia {
+    background-color: red;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 200px;
+    cursor: pointer;
+    height: 40px;
+
+}
+
+.historia:hover {
+    opacity: 0.8;
+
+}
+
+.historia:active {
+    opacity: 0.6;
+    color: #fff;
+
+}
+
+
+
+.img1 {
+    width: 450px
+}
+
+
+.rodizio {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.img2{
+    width: 450px
+
+}
+
+.container-3{
+position: relative;
+   margin-left: 50px;
+   margin-: 900px;
+
+}
