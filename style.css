@@ -7,11 +7,10 @@
 }
 
 body {
-    background-image: url(./assets/arranjo-de-sushi-plano-leigos-com-espaco-de-copia.jpg);
-    background-size: cover;
-    background-position-x: center center;
-    background-repeat: no-repeat;
-  
+    width: 100vw;
+    height: 100vh;
+
+
 }
 
 .container {
@@ -31,9 +30,9 @@ body {
 
 
 header {
-    background-color: #000000;
+    background-color: #ffff;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     /* A propriedade padding define uma a distância entre o conteúdo de um elemento e suas bordas*/
 
 }
@@ -52,6 +51,11 @@ header {
     width: 232px;
 }
 
+.img-fundo {
+    width: 100vw;
+    height: 80vh;
+
+}
 
 
 a:active {
@@ -66,8 +70,8 @@ a:active {
 }
 
 .menu nav a {
-    color: #fff;
-    padding-right: 40px;
+    color: black;
+    padding-right: 20px;
     /*para distanciar os ícones do menu*/
     cursor: pointer;
     position: relative;
@@ -130,12 +134,46 @@ button:active {
     position: absolute;
 }
 
-.container-2 {
-    color: #fff;
-    font-size: 18px;
-    margin-left: 1080px;
-    margin-top: 270px;
+.promocoes {
+    color: black;
+    font-size: 12px;
+    margin-left: 410px;
+    margin-top: 50px;
     width: 40%;
+
+
+}
+
+.yakisoba {
+    margin-top: 30px;
+    border-radius: 4px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.yakisoba:hover {
+    opacity: 0.5;
+
+}
+
+.yakisoba:active {
+    opacity: 0.8;
+
+}
+
+h2 {
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+
+}
+
+p {
+
+    font-size: 17px;
+    color: gray;
+    margin-left: 91px;
+
 }
 
 .historia {
@@ -165,31 +203,7 @@ button:active {
 
 
 
-.img1 {
-    width: 450px
-}
-
-
-.rodizio {
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 18px;
-
-}
-
-.img2{
-    width: 450px
-
-}
-
-.container-3{
-position: relative;
-   margin-left: 50px;
-   
-
-}
-
-.logar{
+.logar {
     background-color: red;
     font-size: 16px;
     color: #fff;
