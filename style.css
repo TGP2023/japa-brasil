@@ -126,9 +126,6 @@ button:active {
     font-size: 12px;
     margin-left: 410px;
     margin-top: 50px;
-
-
-
 }
 
 .pratos-promocoes {
@@ -264,10 +261,25 @@ button:active {
 }
 
 .preco-promocao {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
-    margin-left: 480px;
+    margin-left: 440px;
+    
+}
 
+h3{
+font-size: 16px;
+margin-right: 100px;
+color:rgb(133, 127, 127);
+
+
+}
+
+.kombos {
+    color: black;
+    font-size: 12px;
+    margin-left: 410px;
+    margin-top: 80px;
 }
 
 
