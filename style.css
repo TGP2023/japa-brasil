@@ -219,13 +219,12 @@ button:active {
 }
 
 
-.pratos {
+.pratos,
+.kombos-promocoes,
+.kombinados-promocoes-img {
     margin-top: 20px;
     display: flex;
-
-
-
-
+    cursor: pointer;
 }
 
 .yakisoba1 {
@@ -264,13 +263,14 @@ button:active {
     margin-top: 30px;
     display: flex;
     margin-left: 440px;
-    
+
+
 }
 
-h3{
-font-size: 16px;
-margin-right: 100px;
-color:rgb(133, 127, 127);
+h3 {
+    font-size: 16px;
+    margin-right: 100px;
+    color: rgb(133, 127, 127);
 
 
 }
@@ -279,13 +279,191 @@ color:rgb(133, 127, 127);
     color: black;
     font-size: 12px;
     margin-left: 410px;
-    margin-top: 80px;
+    margin-top: 50px;
+}
+
+.kombos-promocoes {
+    font-size: 15px;
+    margin-left: 410px;
+    width: 200px;
+
+}
+
+.kombo1-sem-bebida {
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+}
+
+.kombo1 {
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+
+
+}
+
+.kombo2-sem-bebida {
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+
+
+}
+
+.kombo2 {
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+
+}
+
+.pratos-kombos {
+    font-size: 15px;
+    margin-left: 420px;
+
+    display: flex;
+    padding-right: 10px;
+
+}
+
+.preco-kombos {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 440px;
+
+}
+
+.kombo-1 {
+    font-size: 15px;
+    width: 223px;
+}
+
+.kombo-2 {
+    font-size: 15px;
+
+    width: 220px;
+}
+
+.kombo-3 {
+    font-size: 15px;
+
+    width: 225px;
+
+}
+
+.kombo-4 {
+    font-size: 15px;
+
+    width: 225px;
+
+}
+
+.kombo1-sem-bebida:hover {
+    opacity: 0.5;
+
+}
+
+.kombo1-sem-bebida:active {
+    opacity: 0.8;
+
+}
+
+.kombo1:hover {
+    opacity: 0.5;
+
+}
+
+.kombo1:active {
+    opacity: 0.8;
+
+}
+
+.kombo1-sem-bebida:hover {
+    opacity: 0.5;
+
+}
+
+.kombo1-sem-bebida:active {
+    opacity: 0.8;
+
+}
+
+.kombo2-sem-bebida:hover {
+
+    opacity: 0.5;
+}
+
+.kombo2-sem-bebida:active {
+    opacity: 0.8;
+
+}
+
+.kombo2:hover {
+    opacity: 0.5;
+
+}
+
+.kombo2:active {
+    opacity: 0.8;
+
+}
+
+.kombinados {
+    color: black;
+    font-size: 12px;
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+.kombinados-promocoes-img {
+    font-size: 15px;
+    margin-left: 410px;
+    width: 200px;
+
+
+}
+
+.tamo,
+.galera,
+.pra-mim,
+.todo-meu,
+.levinho {
+
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+
+}
+
+.pratos-kombinados {
+    font-size: 15px;  
+    display: flex;
+    margin-left: 420px;
+}
+
+.tamo1{
+    font-size: 15px;
+    width: 180px;
+    height:auto;
+   
+
 }
 
 
+.galera1{
+    font-size: 15px;
+    width: 240px;
+    height:auto;
+    margin-left: 10px;
 
 .logar {
-    background-color: red;
+    background-color: rgb(202, 189, 189);
     font-size: 16px;
     color: #fff;
     font-weight: bold;
