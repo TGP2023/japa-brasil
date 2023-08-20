@@ -53,7 +53,7 @@ header {
 
 .img-fundo {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 
 }
 
@@ -221,7 +221,8 @@ button:active {
 
 .pratos,
 .kombos-promocoes,
-.kombinados-promocoes-img {
+.kombinados-promocoes-img,
+.pokes-promocoes-img {
     margin-top: 20px;
     display: flex;
     cursor: pointer;
@@ -428,6 +429,13 @@ h3 {
 
 }
 
+.preco-kombinados {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 440px;
+
+}
+
 .tamo,
 .galera,
 .pra-mim,
@@ -442,29 +450,245 @@ h3 {
 }
 
 .pratos-kombinados {
-    font-size: 15px;  
+    font-size: 15px;
     display: flex;
-    margin-left: 420px;
+    margin-left: 400px;
 }
 
-.tamo1{
+.tamo1 {
     font-size: 15px;
     width: 180px;
-    height:auto;
-   
+    height: auto;
+    padding: 20px;
 
 }
 
 
-.galera1{
+.galera1 {
     font-size: 15px;
-    width: 240px;
-    height:auto;
-    margin-left: 10px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    margin-left: 50px;
+
+}
+
+.pra-mim1 {
+    font-size: 15px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+.todo-meu1 {
+    font-size: 15px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+.levinho1 {
+    font-size: 15px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.tamo:hover {
+    opacity: 0.5;
+
+}
+
+.tamo:active {
+    opacity: 0.8;
+
+}
+
+.galera:hover {
+    opacity: 0.5;
+
+}
+
+.galera:active {
+    opacity: 0.8;
+
+}
+
+.pra-mim:hover {
+    opacity: 0.5;
+
+}
+
+.pra-mim:active {
+    opacity: 0.8;
+
+}
+
+.todo-meu:hover {
+    opacity: 0.5;
+
+}
+
+.todo-meu:active {
+    opacity: 0.8;
+
+}
+
+.levinho:hover {
+    opacity: 0.5;
+
+}
+
+.levinho:active {
+    opacity: 0.8;
+
+}
+
+.pokes {
+    color: black;
+    font-size: 12px;
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+.pokes-promocoes-img {
+    font-size: 15px;
+    margin-left: 410px;
+    width: 200px;
+
+
+
+
+}
+
+.poke-trufado,
+.poke-fresh-croc,
+.poke-fresh-mix,
+.poke-camarao,
+.poke-salmao {
+
+    font-size: 15px;
+    width: 220px;
+    border-radius: 5px;
+    padding-right: 10px;
+
+}
+
+.pratos-pokes {
+    font-size: 15px;
+    display: flex;
+    margin-left: 400px;
+}
+
+.poke-trufado1 {
+    font-size: 15px;
+    width: 180px;
+    height: auto;
+    padding: 20px;
+
+}
+
+.poke-fresh-croc1 {
+    font-size: 15px;
+    width: 180px;
+    margin-left: 50px;
+    padding: 20px;
+    height: auto;
+
+
+}
+
+.poke-fres-mix1 {
+    font-size: 15px;
+    width: 180px;
+    margin-left: 40px;
+    padding: 20px;
+    height: auto;
+
+
+}
+
+.poke-camarao1 {
+    font-size: 15px;
+    width: 180px;
+    margin-left: 40px;
+    padding: 20px;
+    height: auto;
+}
+
+.poke-salmao1 {
+    font-size: 15px;
+    width: 180px;
+    margin-left: 40px;
+    padding: 20px;
+    height: auto;
+
+}
+
+.preco-pokes{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 440px;
+
+}
+
+.poke-trufado:hover {
+    opacity: 0.5;
+
+}
+
+.poke-trufado:active {
+    opacity: 0.8;
+
+}
+
+.poke-fresh-croc:hover {
+    opacity: 0.5;
+
+}
+
+.poke-fresh-croc:active {
+    opacity: 0.8;
+
+}
+
+.poke-fresh-mix:hover {
+    opacity: 0.5;
+
+}
+
+.poke-fresh-mix:active {
+    opacity: 0.8;
+
+}
+
+.poke-camarao:hover {
+    opacity: 0.5;
+
+}
+
+.poke-camarao:active {
+    opacity: 0.8;
+
+}
+
+.poke-salmao:hover {
+    opacity: 0.5;
+
+}
+
+.poke-salmao:active {
+    opacity: 0.8;
+
 }
 
 .logar {
-    background-color: rgb(202, 189, 189);
+    background-color: rgb(240, 43, 43);
     font-size: 16px;
     color: #fff;
     font-weight: bold;
