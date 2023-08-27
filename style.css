@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
+    position: static;
 
 }
 
@@ -16,7 +17,8 @@ body {
 
 
 .container {
-    max-width: 1080px;
+   
+    width: 100vw;
     display: flex;
     /*organizar os elementos de forma responsiva*/
     align-items: center;
@@ -44,13 +46,14 @@ header {
 
 .logo,
 .sociais {
-    width: 25%;
+    width: 40%;
 
 
 }
 
 .logo img {
     width: 232px;
+    margin-left: 180px;
 }
 
 .img-fundo {
@@ -127,6 +130,7 @@ button:active {
     margin-left: 1240px;
     justify-content: center;
     margin-top: 10px;
+   
 
 
 
@@ -140,6 +144,7 @@ button:active {
     color: black;
     align-items: center;
     border: none;
+    
 }
 
 
@@ -149,6 +154,8 @@ input {
     cursor: text;
     width: 500px;
     height: 25px;
+   
+    
 
 }
 
