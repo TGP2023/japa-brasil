@@ -1,6 +1,6 @@
 <h1>Projeto Japa Brasil</h1>
 
-<h2>Esse é um projeto pessoal que desenvolvi através de ferramentas que eu aprendi e continuo a desenvolver novas técnicas para aperfeiçoamento da tecnologia</h2>
+<h2>Esse é um projeto pessoal que desenvolvi através das ferramentas que aprendi e continuo a desenvolver novas técnicas para aperfeiçoamento da tecnologia</h2>
 <br>
 <h1>Sobre o projeto<h1>  
 <h2>É uma landing page voltada para o público amante da culinária japonesa, onde nós temos botões clicáveis com direcionamento entre o menu principal e as opções da culinária. Temos um input para busca do endereço de entrega e um layout bem rico em cores.</h2>  
